@@ -1,4 +1,5 @@
-from opentype import extractOpenTypeInfo, extractOpenTypeGlyphs, extractOpenTypeKerning
+from __future__ import print_function, division, absolute_import
+from .opentype import extractOpenTypeInfo, extractOpenTypeGlyphs, extractOpenTypeKerning
 
 # ----------------
 # Public Functions
