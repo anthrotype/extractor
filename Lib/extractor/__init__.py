@@ -1,10 +1,11 @@
-from exceptions import ExtractorError
-from formats.opentype import isOpenType, extractFontFromOpenType
-from formats.woff import isWOFF, extractFontFromWOFF
-from formats.type1 import isType1, extractFontFromType1
-from formats.ttx import isTTX, extractFontFromTTX
-from formats.ufo import isUFO, extractFontFromUFO
-from formats.vfb import isVFB, extractFontFromVFB, haveVfb2ufo, _setVfb2ufoLocation
+from __future__ import print_function, division, absolute_import
+from .exceptions import ExtractorError
+from .formats.opentype import isOpenType, extractFontFromOpenType
+from .formats.woff import isWOFF, extractFontFromWOFF
+from .formats.type1 import isType1, extractFontFromType1
+from .formats.ttx import isTTX, extractFontFromTTX
+from .formats.ufo import isUFO, extractFontFromUFO
+from .formats.vfb import isVFB, extractFontFromVFB, haveVfb2ufo, _setVfb2ufoLocation
 
 supportedFormats = [".otf", ".ttf", ".pfa", ".pfb", ".ttx", ".ufo"]
 
