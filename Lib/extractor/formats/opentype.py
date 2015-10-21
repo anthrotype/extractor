@@ -1,3 +1,4 @@
+from __future__ import print_function, division, absolute_import
 import time
 from fontTools.ttLib import TTFont, TTLibError
 from fontTools.ttLib.tables._h_e_a_d import mac_epoch_diff
