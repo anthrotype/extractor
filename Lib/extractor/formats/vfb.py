@@ -1,8 +1,9 @@
+from __future__ import print_function, division, absolute_import
 import os
 import shutil
 import tempfile
 import subprocess
-from ufo import extractFontFromUFO
+from .ufo import extractFontFromUFO
 
 _ufo2vfbLocation = "/usr/local/bin/vfb2ufo"
 
