@@ -1,4 +1,5 @@
-from fontTools.t1Lib import T1Font, readLWFN, readPFB, readOther, T1Error
+from __future__ import print_function, division, absolute_import
+from fontTools.t1Lib import T1Font, T1Error
 from fontTools.agl import AGL2UV
 from fontTools.misc.psLib import PSInterpreter
 from fontTools.misc.transform import Transform
