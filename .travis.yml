@@ -18,7 +18,7 @@ deploy:
       python: 3.5
     user: anthrotype
     password:
-      secure: j80CZr2m3srL2ZiIyXGQNx/od1zywo4O7nXg8PX4qKDmPX2CdMZW8b5ZkGZWRrLN2g/Ssd6Qo0WRQTkniz6/SDiBj4x9CJWJ+UbzIsJyAEEgiqF76Tp/kz0HESzJROwfuo67PX3bafyGWvBjDA9cS6xyp2j4rklq6+swCkbDk7NLmFqUps8XE1x4LIJFiF/hkDXxBvjXkitCHA9Z5NPViURujYLyWJ2mRBkWwyRN9q8xkH1pzo4OLuoblxi3u1kWhfcnJmZ3EX24g47oRqCPnChYKk4aArcoGPiRVclB7Ma6zE/fBtjqeMmaDmQw0g6HBFKLhJBXDc4hn8DNP6oGAtPi1FkKuG84CV/KwGGJ4/sulyuZj+73uZ8Hkr9hhEQBcqwWsyrYdzvQPUf1hdgScmGFnhdqubOY5+XOTGq5Jk1NvPg6K+yI9e6FxfWCWOD8Hzv4kz/qsbZ6JIEzb0c7EFnnRQFsTNbtB9ChJJol5dZCP7g5eQ+mZZVzxQ/l4VpZT7hdkb0UjBrk+eIJRgQGOIFM435Ul9bwp1ALddvnhytx++daFtk1/+6cd3kDbaeF+cHNkCsshfQE1O2E+GbEI+Ddm24Sw6dd2g6RbH4bBLdElFhMDx82SxgfNx7Jtx9NhNzqnOP9Xx+1NRRN1RXkxz9DFrs/KbNJOzv+qRk5ZP0=
+      secure: XXQ+GidvQPcLKMJ1FegFpLn6lYn3px/+TPwbHrRZKwLyec7WjFnqkt11IFyQeK0kWuqOzkeozkb5okGwb461pHNTv7PkuwoWhpOZeoYQ8j1tyTv0ALoExqksrJvA6xkC4bRhnBoLuCTMZxu2h998OeRINw2ILGDlXtFp7ebnyqY=
     distributions: sdist bdist_wheel
   # also create a Github Release with current tag
   - provider: releases
