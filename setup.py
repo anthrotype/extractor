@@ -15,7 +15,7 @@ wheel = ['wheel'] if needs_wheel else []
 
 setup(
     name="ufo_extractor",
-    version="0.2.0.dev0",
+    version="0.2.0.dev1",
     description="Tools for extracting data from font binaries into UFO objects.",
     # long_description=long_description,
     author="Tal Leming",
